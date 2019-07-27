@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM arm32v7/ubuntu:bionic
 
 # Install exim4
 ENV DEBIAN_FRONTEND noninteractive
